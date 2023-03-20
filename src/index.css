@@ -1,5 +1,9 @@
 :root {
-    --cor-principal: #FFF;
+    --cor-primaria: #ffffff;
+    --cor-secundaria: #4180ab;
+    --cor-terceira: #8ab3cf;
+    --cor-quarta: #bdd1de;
+    --cor-quinta: #e4ebf0;
 }
 
 html, body, div, span, applet, object, iframe,
