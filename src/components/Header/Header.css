@@ -1,0 +1,13 @@
+.container-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5em 5em;
+}
+
+.container-cabecalho nav ul {
+    display: flex;
+}
+
+.container-cabecalho nav ul li {
+    margin-left: 1em;
+}
