@@ -1,0 +1,66 @@
+.container-login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-login {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-quarta);
+    padding: 1em;
+    width: 80%;
+}
+
+.formulario-login label {
+    font-weight: 500;
+}
+
+.formulario-login input {
+    margin: 0.2em 0 1em 0;
+    height: 2.8em;
+    border: none;
+    padding: 0 1em;
+    border-bottom: solid 2px #c33030;
+}
+
+.formulario-login input::placeholder {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.input-login {
+    background-image: url(../../images/icone-login-arredondado.png);
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
+
+.input-password {
+    background-image: url(../../images/icone-senha.png);
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
+
+.formulario-login button {
+    background-color: #c33030;
+    border: none;
+    height: 2.8em;
+    color: var(--cor-quinta);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.link-esqueceu-senha {
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0.5em;
+    font-style: italic;
+}
+
+.aviso-cadastro {
+    text-align: center;
+    margin: 1em 0 0.5em 0;
+    font-weight: 500;
+}
