@@ -1,20 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Login.css';
+import { Link } from 'react-router-dom';
+import Input from '../../components/Input/index.js';
+import Label from '../../components/Label';
 
 function Login() {
     return (
         <div className="container-login">
+            <h2>Login</h2>
             <form className='formulario-login'>
-                <label>Usuário</label>
-                <input className='input-login' type='text' placeholder='Insira seu usuário' />
-                <label>Senha</label>
-                <input className='input-password' type='password' placeholder='Insira sua senha' />
+                <Label>Usuário</Label>
+                <Input type='text' placeholder='Insira seu usuário' />
+                <Label>Senha</Label>
+                <Input className='input-password' type='password' placeholder='Insira sua senha' />
                 <button>Entrar</button>
-                <Link className='link-esqueceu-senha'>Esqueceu a senha?</Link>
-                <span className='aviso-cadastro'>Ainda não possui cadastro?</span>
-                <button>Cadastrar-se</button>
             </form>
+            <Link className='link-esqueceu-senha'>Esqueceu a senha?</Link>
+            <Link to='/register' className='aviso-cadastro'>Ainda não possui cadastro?</Link>
         </div>
     )
 }

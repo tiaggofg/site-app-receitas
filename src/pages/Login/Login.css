@@ -1,28 +1,28 @@
 .container-login {
-    height: 100vh;
+    height: calc(100vh - 63.59px);
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color: var(--cor-quinta);
+}
+
+.container-login h2 {
+    font-size: 25px;
+    margin: 1.5em;
+    font-weight: 400;
 }
 
 .formulario-login {
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-quarta);
+    
     padding: 1em;
     width: 80%;
 }
 
 .formulario-login label {
     font-weight: 500;
-}
-
-.formulario-login input {
-    margin: 0.2em 0 1em 0;
-    height: 2.8em;
-    border: none;
-    padding: 0 1em;
-    border-bottom: solid 2px #c33030;
 }
 
 .formulario-login input::placeholder {
@@ -55,12 +55,15 @@
     text-align: center;
     text-decoration: none;
     font-size: 13px;
-    margin: 0.5em;
+    margin: 0.1em;
     font-style: italic;
+    color: #000;
 }
 
 .aviso-cadastro {
     text-align: center;
     margin: 1em 0 0.5em 0;
     font-weight: 500;
+    text-decoration: none;
+    color: #000;
 }
