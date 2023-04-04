@@ -3,7 +3,7 @@ import './Label.css';
 
 function Label({children}) {
     return (
-        <label>{children}</label>
+        <label className='label'>{children}</label>
     )
 }
 

@@ -25,11 +25,6 @@
     font-weight: 500;
 }
 
-.formulario-login input::placeholder {
-    font-size: 12px;
-    font-style: italic;
-}
-
 .input-login {
     background-image: url(../../images/icone-login-arredondado.png);
     background-repeat: no-repeat;
